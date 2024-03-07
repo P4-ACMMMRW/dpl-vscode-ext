@@ -1,0 +1,26 @@
+{
+  "name": "dpl",
+  "displayName": "DPL",
+  "description": "DPL Language Support",
+  "version": "0.0.1",
+  "publisher": "P4-ACMMMRW",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "dpl",
+      "aliases": ["dpl", "dpl"],
+      "extensions": [".dpl"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "dpl",
+      "scopeName": "source.dpl",
+      "path": "./syntaxes/dpl.tmLanguage.json"
+    }]
+  }
+}
