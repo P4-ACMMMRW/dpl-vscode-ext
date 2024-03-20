@@ -38,7 +38,7 @@
 			"patterns": [
 				{
 					"name": "comment.line.dpl",
-					"match": "//.*"
+					"match": "#.*"
 				},
 				{
 					"name": "comment.block.dpl",
@@ -86,7 +86,7 @@
 			"patterns": [
 				{
 					"name": "keyword.reserved.dpl",
-					"match": "\\b(true|false)\\b"
+					"match": "\\b(True|False)\\b"
 				}
 			]
 		},
@@ -94,7 +94,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.dpl",
-					"match": "\\b(if|else|loop|break|continue|replace|with|while|return)\\b"
+					"match": "\\b(if|else|break|continue|replace|with|while|return)\\b"
 				}	
 			]
 		},
