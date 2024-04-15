@@ -2,7 +2,7 @@
   "name": "dpl",
   "displayName": "DPL",
   "description": "DPL Language Support",
-  "version": "0.1.1",
+  "version": "0.0.4",
   "publisher": "P4-ACMMMRW",
   "engines": {
     "vscode": "^1.87.0"
